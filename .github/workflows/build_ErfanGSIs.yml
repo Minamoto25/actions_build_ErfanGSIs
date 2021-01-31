@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://get.pixelexperience.org/WFd0d3FZWUZGZWNQYVhncWR0cTRYS1JEdWs5RFZkNEN2c1ZKNzV1ZTRPNDhlbnBHNVdjYVhEbkRxSWhVQU5YL2ZrQWFXWlloRHB0cmkzaGY1cnFKcEE9PQ==/PixelExperience_Plus_land-10.0-20201122-1450-OFFICIAL.zip
+  ROM_URL: https://get.pixelexperience.org/U0IwUnBmR0FiWEtYWTU0dm92blF6WGd0R1h0bW5heWg5R1FSRDE3SGtVc1djUU16c2x5SnRHa0JwbEk1OGwxeFZ0OHEyUXd4UXNhTmM4YXNSTTBKU3ZHR3hLNVk0Nm1nbjNJMHRnN3l0ams9/PixelExperience_land-10.0-20201122-1450-OFFICIAL.zip
   ROM_NAME: Generic Pixel
   TZ: Asia/Shanghai
 
