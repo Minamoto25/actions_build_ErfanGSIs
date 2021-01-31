@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_064_all_2009080056_338a836209c54a7e.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://get.pixelexperience.org/WFd0d3FZWUZGZWNQYVhncWR0cTRYS1JEdWs5RFZkNEN2c1ZKNzV1ZTRPNDhlbnBHNVdjYVhEbkRxSWhVQU5YL2ZrQWFXWlloRHB0cmkzaGY1cnFKcEE9PQ==/PixelExperience_Plus_land-10.0-20201122-1450-OFFICIAL.zip
+  ROM_NAME: Generic Pixel
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
